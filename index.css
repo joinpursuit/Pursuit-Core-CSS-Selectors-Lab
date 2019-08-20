@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+
+.header {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+img[src^="https"] {
+    display: block;
+    width: 40%;
+    border-radius: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#heading-h1 {
+    font-family: 'Damion', cursive;
+    color: red;
+    font-size: 4em;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+a[href$=".com"]:visited {
+    color: rgb(57, 168, 57);
+}
+a[href$=".com"]:hover {
+    color:orange;
+    font-weight: bold;
+}
+
+a:hover {
+    color:orange;
+    font-weight: bold;
+}
+
+ol > li:last-child {
+    font-weight: bold;
+}
+
+a[href^="mailto"]:hover {
+    color: red;
+}
+
+#languages > li {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    background-color: lightgoldenrodyellow;
+    margin-right: 0%;
+    margin-left: -40px;
+}
+
+#challenge > h3+p {
+    background-color: rgba(0,0,0,.3);
+}
+
+.links > li {
+    list-style-type: none;
+}
+
+img[title*="screen shot"] {
+    display: block;
+    width: 30%;
+    border-radius: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
