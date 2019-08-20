@@ -1,0 +1,44 @@
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img[src^='https'] {
+    height: 300px;
+}
+
+#main_header {
+    color: purple;
+}
+
+a[href*='.com']:visited {
+    color: green;
+}
+
+.unordered_links {
+    list-style: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+a[href]:hover {
+        color: orange;
+}
+
+a[href*='@']:hover {
+    color: red;
+}
+
+#languages li {
+    font-style: italic; 
+}
+
+* {
+    text-align: center;
+}
+
+div h3 + p {
+    background-color: rgba(0,0,0,0.5);
+}
