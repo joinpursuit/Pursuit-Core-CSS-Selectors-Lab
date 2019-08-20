@@ -1,0 +1,62 @@
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#theImage {
+    height: 250px;
+    width: 250px;
+}
+
+#h1Tag {
+    color: maroon;
+}
+
+a[href$=".com"]:visited {
+    color: green;
+}
+
+.deletingBP {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#lastItemInOL {
+    font-weight: bold;
+}
+
+#contactEmail:hover {
+    color: red;
+}
+
+#listElement1:hover {
+    color: orange;
+}
+
+#listElement2:hover {
+    color: orange;
+}
+
+#listElement3:hover {
+    color: orange;
+}
+
+.italicsThis {
+    font-style: italic;
+    text-align: center;
+    list-style-position: inside;
+}
+
+body {
+    text-align: center;
+}
+
+#lastQuestion:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+.centerThis {
+    text-align: center;
+    list-style-position: inside;
+}
