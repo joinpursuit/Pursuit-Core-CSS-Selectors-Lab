@@ -1,0 +1,48 @@
+.header{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img {
+  height: 300px;
+}
+
+#first-heading{
+  color: rgb(85,107,47)
+}
+
+a[href$='.com']:visited{
+  color: green;
+}
+
+.links{
+  list-style-type: none;
+}
+
+ol > li:last-child{
+  font-weight: bold;
+}
+
+a[href*='mailto']:hover{
+  color: red;
+}
+
+a:hover{
+  color: orange;
+}
+
+div > ul > li{
+  font-style: italic;
+}
+
+body{
+  text-align: center;
+}
+
+ol,ul{
+  list-style-position: inside;
+}
+
+h3 + p:first-of-type{
+  background-color: rgba(0,0,0,.5);
+}
