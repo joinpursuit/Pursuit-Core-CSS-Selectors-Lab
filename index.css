@@ -1,0 +1,43 @@
+img[src^='https'] {
+    height: 200px;
+    width: 200px;
+    /* margin-left: auto;
+    margin-right: auto;
+    display: block; */
+}
+
+#head_myName {
+    color: blueviolet;
+}
+
+a[href$='.com']:visited {
+    color: green;
+}
+
+.unorderList {
+    list-style: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+a[href$='.org']:hover {
+    color: orange;
+}
+
+a[href]:hover {
+    color: orange;
+}
+
+#language_list {
+    font-style: italic;
+}
+
+html {
+    text-align: center;
+}
+
+#hardest_div::first-line {
+    background-color: rgba(0, 0, 0, .5);
+}
