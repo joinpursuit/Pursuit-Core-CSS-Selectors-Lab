@@ -1,0 +1,40 @@
+img[src ^= 'https'] {
+    width: 300px;
+    height: auto;
+}
+
+#header {
+    color: fuchsia
+}
+
+a[href $= '.com']:visited {
+    color: green;
+}
+
+.remove-bullets-in-li{
+    list-style-type: none;
+}
+
+ol > li:last-child {
+    font-weight: bold;
+}
+
+a[href $= 'org']:hover {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+body {
+    text-align: center;
+}
+
+div ul li {
+    font-style: italic;
+}
+
+h3 + p {
+    background-color: rgba(0,0,0,5);
+}
