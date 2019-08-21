@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    list-style-position: inside
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+img[src^="http"] {
+    width: 250px;
+    height: auto
+}
+#headingOne {
+    color: purple;
+}
+
+a[href$=".com"]:visited {
+    color: green;
+}
+
+.list {
+    list-style-type: none;
+}
+ol li:last-child {
+    font-weight: bold;
+}
+
+a[href$=".org"]:hover {
+    color:red;
+}
+a:hover {
+    color: orange;
+}
+div ul li {
+    font-style: italic
+}
+
+div > p:first-child {
+    background-color: rgba(0,0,0,.5);
+}
