@@ -1,0 +1,66 @@
+/* # Question 2. */
+
+.headers {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* # Question 3. */
+
+img[src^="https"] {
+  width: 300px;
+  height: 300px;
+}
+
+/* # Question 4. */
+
+#head {
+  color: Blue;
+}
+
+/* # Question 5. */
+
+a[href$=".com"]:visited{
+  color:green;
+}
+
+/* # Question 6. */
+.unorderList {
+  list-style-type: none;
+
+}
+
+/* # Question 7. */
+
+ol li:last-child {
+  font-weight: 700;
+}
+
+/* # Question 8. */
+
+a[href$=".org"]:hover{
+  color: red;
+}
+
+/* # Question 9. */
+a[href$=".com"]:hover{
+  color: orange;
+}
+/* Give all other links a hover effect of turning orange. */
+
+/* # Question 10. */
+#languages{
+  font-style: italic;
+}
+
+/* # Question 11. */
+
+body {
+  text-align: center;
+}
+
+/* # Question 12. */
+
+div p:first-of-type {
+  background-color: rgba(0,0,0,.5);
+}
