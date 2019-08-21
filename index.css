@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+}
+
+.heading{
+  text-decoration: underline;
+  text-decoration: bold;
+}
+
+img[src^="https"]{
+  width: 300px;
+  height: 300px;
+}
+
+#heading-one {
+  color: magenta;
+}
+
+a[href$=".com"]:visited{
+  color: green;
+}
+
+.unordered-list{
+  list-style-type: none;
+}
+
+li + ol {
+  text-decoration: bold;
+}
+
+a[href^="mailto"]:hover{
+ color: red;
+}
+
+.hover-effect2:hover{
+  color: orange;
+}
+
+div > ul > li{
+  font-style: oblique;
+}
+
+ol > li:last-child{
+  font-weight: bold
+}
+
+.list-style{
+  list-style-position: inside;
+}
+
+h3 + p:first-of-type {
+  background-color: rgba(0,0,0,.5);
+}
