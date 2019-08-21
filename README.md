@@ -11,10 +11,11 @@ Use the HTML below for the following questions:
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <link href="selectors.css">
   </head>
   <body>
 
-    <h1>Your Name Here</h1>
+    <h1 class="header" id="my_header">Your Name Here</h1>
     <div>
       <p>This is a bunch of information about myself. I'm from here and there and discovered my
       love of programming when this happend. When I'm not working I'm busy doing this and that.
@@ -50,7 +51,7 @@ Use the HTML below for the following questions:
       <p>I came up with a totally sick solution though by doing ... </p>
     </div>
 
-    <h2>Contact Me</h2>
+    <h2 class="header">Contact Me</h2>
     <div>
      Email me at: <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>

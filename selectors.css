@@ -1,0 +1,37 @@
+.header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+img[src^="https"] {
+  width: 400px
+}
+#my_header {
+  color: steelblue;
+}
+a[href$=".com"]:visited{
+  color: green;
+}
+.unordered > li {
+  list-style-type: none;
+}
+ol > li:last-child {
+  font-weight: bold;
+}
+a[target*="_top"]:hover {
+  color: red;
+}
+a:hover {
+  color: orange;
+}
+ul > h3 {
+  font-style: italic;
+}
+body {
+  text-align: center;
+}
+ol, ul {
+  list-style-position: inside;
+}
+h1 + div > p{
+  background-color: rgba(0,0,0,.5);
+}
