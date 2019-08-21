@@ -1,0 +1,41 @@
+.header {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+img[src^="https"] {
+  height: 200px;
+}
+
+#main {
+  color: blue;
+}
+
+a[href$=".com"]:visited{
+  color: green;
+}
+
+.links{
+  list-style: none;
+}
+
+h2 + div :hover {
+  color: red;
+}
+
+ul > li :hover {
+  color: orange;
+}
+
+ul h3 ~ li {
+  font-style: italic;
+}
+
+body {
+  list-style-position: inside;
+  text-align: center;
+}
+
+div > h3 + p {
+  background-color: rgba(0,0,0,.5);
+}
