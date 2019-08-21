@@ -114,9 +114,9 @@ Inside of your languages ul, change the font to be in italics. -->
 
 Center all text inside the body. -->
 
-# Question 12.
+<!-- # Question 12.
 
-In the hardest bug so far, change only the first p tag using a selector on the div. Give it this: background-color: rgba(0,0,0,.5);
+In the hardest bug so far, change only the first p tag using a selector on the div. Give it this: background-color: rgba(0,0,0,.5); -->
 
 # Question 13. Combinators practice from w3schools
 
