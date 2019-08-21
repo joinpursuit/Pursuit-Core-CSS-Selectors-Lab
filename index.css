@@ -1,0 +1,54 @@
+/*All headings have a class called heading and using properties to underline and make them bold*/
+.heading{
+    text-decoration: underline;
+    font-weight: bold;
+}
+/*All headings have a class called heading and using properties to underline and make them bold*/
+img[src^= 'https']{
+    width: 300px;
+    height: auto;
+}
+/* changes the heading color */
+#main_head{
+    color: lightgreen;
+}
+
+/* use pseudo-class and ends-with attribute to get this  */
+a[href $= '.com']:visited{
+ color: green; 
+
+}
+
+/*remove bullet points */
+.links{
+    list-style: none; 
+}
+
+/* use child selector and pseudo-element to make the last child of the ol bold */
+ol>li:last-child { 
+    font-weight: bold;
+} 
+/* use pseudo-class and ends-with attribute to get this */
+a[href $= '.org']:hover{
+    color: red;
+}
+
+/* use pseudo-class and ends-with attribute to get this */
+a[href $= '.com']:hover{
+    color: orange; 
+}
+
+/* class selector with child selector to change the style*/
+.lang > li{
+    font-style: italic; 
+}
+
+/* assigned all elements with text a class*/
+.text{
+    text-align: center;
+}
+
+/* use the 
+div h3 + p{
+    background-color: rgba(0,0, 0,0.5);
+}
