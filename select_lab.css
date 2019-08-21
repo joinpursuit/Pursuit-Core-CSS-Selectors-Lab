@@ -1,0 +1,66 @@
+
+/* Question 2 */
+
+
+.underline{
+  text-decoration:  underline;
+  font-weight: bold;
+
+}
+
+
+/* Question 3 */
+img[src*="https"]{
+width: 200px;
+}
+
+
+
+/* Question 4 */
+#heading_1{
+  color:blue
+}
+
+/* Question5 */
+a:visited{
+  color:green;
+}
+
+/* Question 6 */
+.website{
+list-style-type: none;
+}
+
+/* Question 7 */
+
+
+/* Question8 */
+div>a:hover{
+  color:red;
+}
+
+
+/* Question 9 */
+ul>li>a:hover{
+  color:orange;
+}
+
+/* Question 10 */
+ul>li{
+  font-style: oblique;
+
+}
+
+/* QUestion 11 */
+
+
+body{
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+/* Question 12 */
+ h3+p{
+  background-color: rgba(0,0,0,.5);
+}
