@@ -1,0 +1,53 @@
+.underlinedAndBold {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img[src^="http"] {
+    width: 200px;
+    height: 200px;
+}
+
+#topHeading {
+    color: rebeccapurple;
+}
+
+a[href$=".com"]:visited{
+    color: green;
+}
+
+.noMoreBulletPoints {
+    list-style-type: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+#myEmail:hover {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited:hover{
+    color: orange;
+}
+
+ol  li{
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+#paragraphs::first-line {
+    background-color: rgba(0,0,0,.5);
+}
