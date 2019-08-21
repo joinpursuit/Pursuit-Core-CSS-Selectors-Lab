@@ -1,0 +1,39 @@
+ .heading {
+    text-decoration: underline;
+     font-weight: bold;
+ }
+img[src^="http"] {
+   width: 300px
+}
+#heading_tag {
+    color:red;
+}
+a:visited[href$= ".com"] {
+    color:green
+}
+.remove {
+    list-style: none;
+}
+div>ol>li:last-child {
+    font-weight: bold;
+}
+/* #hover:hover  {
+    color:red;
+} */
+
+a[href^="mailto"]:hover {
+    color:red;
+}
+a:hover[href^="https"] {
+    color: orange;
+}
+#italics {
+    font-style:italic;
+}
+body {
+   text-align: center;
+   list-style-position: inside;
+}
+.hardest_bug p:nth-child(2) {
+    background-color:rgba(0, 0, 0, .5)
+}
