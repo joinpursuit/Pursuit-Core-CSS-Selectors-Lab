@@ -1,0 +1,55 @@
+/* Question 2 */
+.UL-and-Bold {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+img[src^="https"] {
+    width: 300px;
+}
+
+/* Question 4 */
+#unique-color {
+    color: orangered;
+}
+
+/* Question 5 */
+a:visited[href$=".com"] {
+    color: green;
+}
+
+/* Question 6 */
+.remove-all-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 7 */
+ol li:last-child {
+    font-weight: 900;
+}
+/* Question 9 */
+a:hover[href] {
+    color: orange;
+}
+
+/* Question 8 */
+a:hover[href$="pursuit.org"] {
+    color: red;
+}
+
+/* Question 10 */
+#languages-italic {
+    font-style: oblique;
+}
+
+/* Question 11 */
+body div {
+    text-align: center;
+}
+
+/* Question 12 */
+#hardest p:first-of-type{
+    background-color: rgba(0,0,0,.5);
+}
