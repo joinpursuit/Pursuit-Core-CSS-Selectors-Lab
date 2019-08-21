@@ -1,0 +1,47 @@
+.heading {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+img[src^="https"] {
+    height: 300px;
+    width: 400px;
+}
+
+#mainheading {
+    color: darkblue;
+}
+
+a:visited {
+    color: green;
+}
+
+.linklist {
+    list-style-type: none;
+}
+
+ol > li:nth-of-type(4){
+    font-weight: bold;
+}
+
+a[target= '_top']:hover{
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+div > ul > li {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+.hardest_bug p:nth-child(2) {
+    background-color: rgba(0,0,0,.5)
+}
+
