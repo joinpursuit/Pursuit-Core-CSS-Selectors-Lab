@@ -1,0 +1,49 @@
+.header {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img[src^="https"] {
+    width: 400px;
+}
+
+#first-header {
+    color: red;
+}
+
+a[href$=".com"]:visited {
+    color: green
+}
+
+.links li {
+    list-style-type: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+a[href$=".org"]:hover {
+    color: red;
+}
+
+.link:hover {
+    color: orange;
+}
+
+#languages > li {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside
+}
+
+div:nth-child(5) p:first-of-type {
+    background-color: rgba(0,0,0,.5);
+}
+

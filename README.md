@@ -1,4 +1,4 @@
-# Pursuit-Core-CSS-Selectors-Lab
+<!-- # Pursuit-Core-CSS-Selectors-Lab
 
 Use the HTML below for the following questions:
 
@@ -71,48 +71,48 @@ Use the HTML below for the following questions:
 </details>
 
 
-# Question 1.
+# Question 1. -->
 
-Add a link in the index.html to a css file.
-# Question 2.
+<!-- Add a link in the index.html to a css file.
+# Question 2. -->
 
-Assign a class to all header tags and make them all underlined and bold.
+<!-- Assign a class to all header tags and make them all underlined and bold. -->
 
-# Question 3.
+<!-- # Question 3.
 
-Change the size of all img tags that have a src that starts with https.
+Change the size of all img tags that have a src that starts with https. -->
 
-# Question 4.
+<!-- # Question 4.
 
-Give the h1 tag a unique id and make turn it to the color of your choice.
+Give the h1 tag a unique id and make turn it to the color of your choice. -->
 
-# Question 5.
+<!-- # Question 5.
 
-All links that end in .com should be the color green after a visit to the link.
+All links that end in .com should be the color green after a visit to the link. -->
 
-# Question 6.
+<!-- # Question 6.
 
-Using a class name in the ul remove all of the li's bullet points in the list of .coms.
+Using a class name in the ul remove all of the li's bullet points in the list of .coms. -->
 
-# Question 7.
+<!-- # Question 7.
 
-In the ol change only the last child element to be bold.
+In the ol change only the last child element to be bold. -->
 
-# Question 8.
+<!-- # Question 8.
 
-Give the contact email a hover effect of turning red.
+Give the contact email a hover effect of turning red. -->
 
-# Question 9.
+<!-- # Question 9.
 
-Give all other links a hover effect of turning orange.
+Give all other links a hover effect of turning orange. -->
 
-# Question 10.
+<!-- # Question 10.
 
-Inside of your languages ul, change the font to be in italics.
+Inside of your languages ul, change the font to be in italics. -->
 
-# Question 11.
+<!-- # Question 11.
 
-Center all text inside the body.
+Center all text inside the body. -->
 
 # Question 12.
 
