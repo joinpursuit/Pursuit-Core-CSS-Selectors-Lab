@@ -1,0 +1,49 @@
+.heading {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[src^="http"] {
+  width: 200px;
+  height: 200px;
+}
+
+#first-heading {
+  color: blue;
+}
+
+a[href$=".com"]:visited {
+  color: green;
+}
+
+.list {
+ list-style-type: none;
+}
+
+ol > li:last-child {
+  font-weight: bold;
+}
+
+a[href*="mailto"]:hover {
+  color: red;
+}
+
+a[href$=".com"]:hover {
+  color: orange;
+}
+
+div > ul > li {
+  font-style: italic;
+}
+
+body {
+  text-align: center;
+}
+
+.centerBulletPoint {
+  list-style-position: inside;
+}
+
+h3 + p:first-of-type {
+  background-color: rgba(0,0,0,.5);
+}
