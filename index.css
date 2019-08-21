@@ -1,0 +1,41 @@
+.q2 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[src^='https']{
+  width:200px;
+  height:200px;
+}
+
+#q4{
+  color:purple;
+}
+
+a[href$=".com"]:visited{
+  color:green;
+}
+
+.q6 > li{
+  list-style: none;
+}
+
+ol > li:last-child{
+  font-weight:bold;
+}
+#q8:hover{
+  color:red;
+}
+a:hover{
+  color:orange;
+}
+#q10{
+  font-style:italic;
+}
+
+body{
+  text-align: center;
+}
+#q12 > p:nth-last-child(2){
+  background-color: rgba(0,0,0,.5);
+}
