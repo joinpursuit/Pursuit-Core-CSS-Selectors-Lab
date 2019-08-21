@@ -1,0 +1,105 @@
+/* Joseph P. Pasaoa
+*/
+
+body {
+  text-align: center;
+}
+
+.header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[src^="https"] {
+  width: 100px;
+}
+
+#topheader {
+  color: cornflowerblue;
+}
+
+a:link {
+  color: inherit;
+  background-color: lightblue;
+}
+
+a:visited {
+  color: inherit;
+  background-color: lightblue;
+}
+
+a:hover {
+  color: orange;
+  background-color: yellow;
+}
+
+a:active {
+  color: initial;
+  background-color: yellow;
+}
+
+a:link[href$=".com"] {
+  color: initial;
+}
+
+a:visited[href$=".com"] {
+  color: green;
+}
+
+ul.ulist {
+  list-style-type: none;
+}
+
+ol li:last-child {
+  font-weight: bold;
+}
+
+a:link[href^="mailto"] {
+  color: inherit;
+}
+
+a:visited[href^="mailto"] {
+  color: inherit;
+}
+
+a:hover[href^="mailto"] {
+  color: red;
+}
+
+div ul li {
+  font-style: italic;
+}
+
+ul, ol { /* for Q11 */
+  padding-left: unset;
+}
+
+li { /* for Q11*/
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto
+}
+
+div#firstcopy p {
+  background-color: rgba(0,0,0,.5);
+}
+
+div > p {
+  color: red;
+}
+
+p.highlight:hover, input:hover, input:active {
+   background-color: lightblue;
+}
+
+p#q15::first-line {
+  color: red;
+}
+
+p#q15::first-letter {
+  font-size: xx-large;
+}
+
+p::before, p::after {
+  content: url("./smiley.gif");
+}
