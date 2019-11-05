@@ -1,0 +1,40 @@
+
+/* class for headers*/
+.eh {
+   text-decoration: underline;
+   font-weight: 900
+}
+/*class for img*/
+.uh {
+   height: 100px;
+   width: 100px;
+   text-align: left 
+}
+
+/*h1 id*/
+#unique{
+   color: #c79029
+}
+
+/*links .com color*/
+a[href$=".com"]:visited {
+color: #094622
+}
+
+/*list class*/
+.ah{
+   list-style: none;
+}
+/*hover for contact email*/
+a[href$=".org"]:hover{
+   color: #850404
+}
+/*Hover for links*/
+a[href$=".com"]:hover {
+   color: #fc9802
+}
+
+/*div text align*/
+.ih,#cent,#anh,#anh1,#unique {
+   text-align: center
+}

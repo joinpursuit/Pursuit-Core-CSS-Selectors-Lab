@@ -14,8 +14,8 @@ Use the HTML below for the following questions:
   </head>
   <body>
 
-    <h1>Your Name Here</h1>
-    <div>
+    <h1 id="anh1">Your Name Here</h1>
+    <div class= "ih">
       <p>This is a bunch of information about myself. I'm from here and there and discovered my
       love of programming when this happend. When I'm not working I'm busy doing this and that.
     </p>
@@ -56,9 +56,9 @@ Use the HTML below for the following questions:
     </div>
 
     <ul>
-      <li> <a href="github.com">github link</a> </li>
-      <li> <a href="linkedin.com">LinkedIn link</a> </li>
-      <li> <a href="angellist.com">Angel list link</a> </li>
+      <li> <a href="https://github.com">github link</a> </li>
+      <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
+      <li> <a href="https://angellist.com">Angel list link</a> </li>
     </ul>
 
     <form action="index.html" method="post">
