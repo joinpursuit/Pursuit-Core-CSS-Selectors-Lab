@@ -55,7 +55,7 @@ Use the HTML below for the following questions:
      Email me at: <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>
 
-    <ul class="links">
+    <ul class="links"66>
       <li> <a href="https://github.com">github link</a> </li>
       <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
       <li> <a href="https://angellist.com">Angel list link</a> </li>
