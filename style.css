@@ -25,3 +25,7 @@ ol>li:last-child {
     font-weight: bold;
 }
 
+a:hover[href$=".org"] {
+    color: red;
+}
+
