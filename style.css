@@ -29,3 +29,6 @@ a:hover[href$=".org"] {
     color: red;
 }
 
+a:hover[href$=".com"] {
+    color: orange;
+}
