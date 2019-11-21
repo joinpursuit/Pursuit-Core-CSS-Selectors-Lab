@@ -12,3 +12,6 @@ img {
 a[href$='.com']:visited {
     color: green
 }
+.uls {
+    list-style: none;
+} 
