@@ -1,0 +1,20 @@
+.header{
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+img[src^=https]{
+  height: 10%;
+  width: 10%;
+}
+#header1 {
+  color: pink
+}
+
+a[href$=".com"]:visited{
+  color:green
+}
+
+.links li, a[href$=".com"]  {
+  list-style-type: none
+}
