@@ -26,3 +26,6 @@ a[href$='.org']:hover {
     cursor: pointer;
     background: red;
 }
+#fontchange li {
+    font-style: italic;
+}
