@@ -1,0 +1,24 @@
+h1,h2,h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+#sayMyName {
+    color: pink;
+}
+a[href$="com"]:visited {
+    color:grey;
+}
+#comList {
+    list-style-type: none;
+}
+#fourth{
+    color:teal
+}
