@@ -15,6 +15,30 @@ a[href$=".com"]:visited{
   color:green
 }
 
-.links li, a[href$=".com"]  {
+.links a[href$=".com"]  {
   list-style-type: none
+}
+
+ol li:last-child{
+  font-weight: bolder
+}
+
+a[href^=mailto]:hover{
+  color: red;
+}
+
+a:hover{
+  color: orange;
+}
+
+ul li {
+  font-family: cursive
+}
+
+body{
+  text-align: center
+}
+
+div p:first-child{
+  background-color: rgba(0,0,0,.5);
 }
