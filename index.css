@@ -22,3 +22,24 @@ a[href$="com"]:visited {
 #fourth{
     color:teal
 }
+
+#email:hover{
+    color:red
+}
+
+#link1:hover, #link2:hover, #link3:hover {
+    color: orange;
+}
+
+#List{
+    font-style: italic;
+}
+
+#body{
+    text-align: center;
+    list-style-position: inside;
+}
+
+#div > #firstP{
+    background-color: rgba(0,0,0,.5);
+}
