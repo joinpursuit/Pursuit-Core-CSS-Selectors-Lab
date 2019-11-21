@@ -1,0 +1,25 @@
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img[src^="https"] {
+    height: 250px;
+    width: 250px;
+}
+
+#name {
+    color: blue;
+}
+
+a[href$=com]:visited {
+    color: green;
+}
+
+.links {
+    list-style-type: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
