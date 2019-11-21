@@ -9,3 +9,6 @@ img {
 #head1 {
     color: blue;
 }
+a[href$='.com']:visited {
+    color: green
+}
