@@ -1,0 +1,21 @@
+.header {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img[src^="https"] {
+    height: 250px;
+    width: 250px;
+}
+
+#name {
+    color: turquoise;
+}
+
+a:visited[href$=".com"] {
+    color: green;
+}
+
+.coms {
+    list-style-type: none;
+}
