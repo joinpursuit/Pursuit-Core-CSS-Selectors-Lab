@@ -18,3 +18,7 @@ a[href$='.com']:visited {
 ol li:last-child {
     font-weight: bold;
 }
+a[href$='.org']:hover {
+    cursor: pointer;
+    background: red;
+}
