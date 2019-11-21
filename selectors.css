@@ -19,3 +19,12 @@ a:visited[href$=".com"] {
 .coms {
     list-style-type: none;
 }
+
+ol:last-child {
+    font-weight: bold;
+}
+
+a:hover[href^="mailto"] {
+    color: red;
+}
+
