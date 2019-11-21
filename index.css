@@ -1,0 +1,38 @@
+.header{
+  text-decoration: underline;
+  font-weight: bold;
+}
+img[src^="https"]{
+  width: 400px;
+}
+#my_header{
+  color: royalblue
+}
+a[href$=".com"]:visited{
+  color: green;
+}
+.remove li{
+  list-style-type: none;
+}
+ol > li:last-child{
+  font-weight: bold
+}
+a[target="_top"]:hover{
+  color:red
+}
+a:hover{
+  color: orange;
+}
+ul > li{
+  font-style: italic;
+}
+body{
+  text-align: center;
+}
+div > p:nth-child(2){
+  background-color: rgba(0,0,0,.5);
+}
+ul, ol{
+  list-style-position: inside;
+}
+© 2019 GitHub, Inc.
