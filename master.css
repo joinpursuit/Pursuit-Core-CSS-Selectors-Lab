@@ -23,3 +23,23 @@ a[href$=com]:visited {
 ol li:last-child {
     font-weight: bold;
 }
+
+#email:hover {
+    color:red;
+}
+
+a:hover {
+    color: orange;
+}
+
+ul {
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+}
+
+div p:first-child{
+    color: blueviolet;
+}

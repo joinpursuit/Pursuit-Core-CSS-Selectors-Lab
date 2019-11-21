@@ -74,9 +74,11 @@ Use the HTML below for the following questions:
 # Question 1.
 
 Add a link in the index.html to a css file.
+link stylesheet
 # Question 2.
 
 Assign a class to all header tags and make them all underlined and bold.
+
 
 # Question 3.
 
