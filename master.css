@@ -1,0 +1,26 @@
+.header{
+    text-decoration:underline;
+    font-weight:bold;
+}
+img{
+    height:300px;
+    width: auto;
+}
+h1{
+    color: cornflowerblue;
+}
+a:visited{
+    color: green;
+}
+.websites{
+    list-style-type: none;
+}
+ol>li:last-child{
+    font-weight:bold;
+}
+a[href^="mailto"]:hover{
+    color: red;
+}
+.Other_Websites:hover{
+    color: orange;
+}
