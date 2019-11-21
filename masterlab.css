@@ -23,8 +23,30 @@ ol li:last-child {
 
 }
 
-#email:hover {
+a[href="comlink"] {
     cursor:pointer;
-    color: rebeccapurple;
-    
+    color: rebeccapurple;    
+}
+
+.comul a:hover {
+    cursor:pointer;
+    color:orange;
+}
+
+#emailMe a:hover{
+    cursor:pointer;
+    color: red; 
+}
+
+#languageUl li{
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+    list-style-position: inside;
+}
+
+#bug p:first-of-type{
+    background-color:rgba(0,0,0,.5);
 }
