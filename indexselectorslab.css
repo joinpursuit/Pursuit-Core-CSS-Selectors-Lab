@@ -1,0 +1,36 @@
+.heading{
+    text-decoration: underline;
+    font-weight: bold;
+}
+img[src^="http"]{
+    height: 200px;
+    width: 200px;
+}
+#h1id{
+    color: blueviolet;
+}
+a[href$=".com"]:visited{
+    color:green;
+}
+.remove-coms{ /*we added another class to this particular ul*/
+    list-style-type: none;
+}
+ol li:last-child{
+    font-weight: bold;
+}
+div a:hover{
+    color: red;
+}
+a[href$=".com"]:hover{
+    color: orange;
+}
+div ul li{
+    font-style: italic;
+}
+body{
+    text-align: center;
+    list-style-position: inside;
+}
+div > h3 + p{
+    background-color:rgba(0,0,0,.5);
+}
