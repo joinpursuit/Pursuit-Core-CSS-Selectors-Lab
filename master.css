@@ -21,6 +21,12 @@ ol>li:last-child{
 a[href^="mailto"]:hover{
     color: red;
 }
-.Other_Websites:hover{
+a:hover{
     color: orange;
+}
+.languages{
+    font-style: italic;
+}
+body{
+    text-align: center;
 }
