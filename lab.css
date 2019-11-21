@@ -1,0 +1,45 @@
+.header {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img[src^=https]{
+    height: 200px;
+    width: 150px;
+}
+
+#color {
+    color: blue;
+} 
+
+a[href$="com"]:visited {
+    color: green;
+}
+
+.remove {
+    list-style-type: none;
+}
+
+ol > #bye {
+    font-weight: bold;
+}
+
+a[href^="mailto"]:hover {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+#lan > li {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+div > p {
+    background-color: rgba(0,0,0,.5);
+}
