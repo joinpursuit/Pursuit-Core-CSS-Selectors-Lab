@@ -1,0 +1,27 @@
+.header{
+    text-decoration: underline;
+    font-weight: bold;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+h1{
+    color: purple;
+
+}
+a:visited{
+    color: green;
+}
+.removeBullet {
+    list-style-type: none;
+}
+ol li:last-child {
+    font-weight: bold;
+}
+/* #email:hover{
+    color: red;
+} */
+a:hover{
+   color: orange;
+}
