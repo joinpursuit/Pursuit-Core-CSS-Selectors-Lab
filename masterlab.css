@@ -12,3 +12,19 @@
     color: darkolivegreen;
 
 }
+a:visited{
+    color: cyan;
+}
+.comul {
+    list-style-type: none;
+}
+ol li:last-child {
+    font-weight: bold;
+
+}
+
+#email:hover {
+    cursor:pointer;
+    color: rebeccapurple;
+    
+}
