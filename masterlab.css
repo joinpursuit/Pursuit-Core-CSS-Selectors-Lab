@@ -1,0 +1,14 @@
+.headerOne {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#imageId {
+    height: 100px;
+    width: 130px;
+}
+
+#hOneId {
+    color: darkolivegreen;
+
+}
