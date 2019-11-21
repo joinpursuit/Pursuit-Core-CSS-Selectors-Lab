@@ -23,7 +23,7 @@ a[target="_top"]:hover{
 a:hover{
     color: orange;
 }
-ul > h3{
+ul > li{
     font-style: italic;
 }
 body{
