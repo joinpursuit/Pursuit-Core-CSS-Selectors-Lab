@@ -1,0 +1,49 @@
+.header {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img[src^="https"]{
+    height: 200px;
+    width: 200px;
+}
+
+#redhead {
+    color: red;
+}
+
+a[href$="com"]:visited {
+    color: green;
+}
+
+.removelinks li {
+    list-style-type: none;
+}
+
+ol li:last-child {
+    font-weight: bold;
+}
+
+a[href^="mailto"]:hover {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+div ul li {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside ;
+}
+
+div > p:nth-child(2){
+    background-color: pink;
+}
