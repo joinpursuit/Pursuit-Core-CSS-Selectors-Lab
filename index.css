@@ -1,0 +1,62 @@
+/* Q2 */
+.heading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Q3 */
+img[src^="https"]{
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Q4 */
+#header1 {
+    color: turquoise; 
+}
+
+
+/* Q5 */
+a:visited[href$="com"] {
+    color: green;
+}
+
+
+/* Q6/Q10 */
+.list1 {
+    list-style: none;
+    font-style: italic;
+}
+
+
+/* Q7 */
+ol > li:last-child {
+    font-weight: bold;
+}
+
+
+/* Q8 */
+a[href^="mailto"]:hover {
+    background: red;
+}
+
+
+/* Q9 */
+a[href$="com"]:hover {
+    background: orange;
+}
+
+
+/* Q11 */
+body {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+/* Q12 */
+div > p:nth-child(2) {
+    background-color: rgba(0,0,0,.5);
+}
