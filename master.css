@@ -1,0 +1,13 @@
+.header{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img{
+    height: 250px;
+    width: auto;
+}
+
+#h1name{
+    color: limegreen;
+}

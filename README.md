@@ -11,10 +11,11 @@ Use the HTML below for the following questions:
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <script src="./master.css">
   </head>
   <body>
 
-    <h1>Your Name Here</h1>
+    <h1 class="header">Your Name Here</h1>
     <div>
       <p>This is a bunch of information about myself. I'm from here and there and discovered my
       love of programming when this happend. When I'm not working I'm busy doing this and that.
@@ -24,9 +25,9 @@ Use the HTML below for the following questions:
     <img src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png" alt="" >
 
     <div >
-      <h3>Here are some of my Skills!</h3>
+      <h3 class="header">Here are some of my Skills!</h3>
       <ul>
-        <h3>Languages</h3>
+        <h3 class="header">Languages</h3>
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
@@ -35,7 +36,7 @@ Use the HTML below for the following questions:
       </ul>
 
       <ol>
-        <h3>Librarys</h3>
+        <h3 class="header">Librarys</h3>
         <li>React</li>
         <li>PostgreSQL</li>
         <li>Node</li>
@@ -45,12 +46,12 @@ Use the HTML below for the following questions:
     </div>
 
     <div>
-      <h3>Hardest Bug So Far</h3>
+      <h3 class="header">Hardest Bug So Far</h3>
       <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
       <p>I came up with a totally sick solution though by doing ... </p>
     </div>
 
-    <h2>Contact Me</h2>
+    <h2 class="header">Contact Me</h2>
     <div>
      Email me at: <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>
