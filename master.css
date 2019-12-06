@@ -1,13 +1,33 @@
-.header{
+.header {
     font-weight: bold;
     text-decoration: underline;
 }
 
-img{
+img {
     height: 250px;
     width: auto;
 }
 
-#h1name{
+#h1name {
     color: limegreen;
+}
+
+a:visited {
+    color: green;
+}
+
+.noBullets {
+    list-style: none;
+}
+
+/* #olChild{
+    
+} */
+
+.emailLink:hover {
+    color: red;
+}
+
+a:hover {
+    color: orange;
 }
