@@ -20,9 +20,9 @@ a:visited {
     list-style: none;
 }
 
-/* #olChild{
-    
-} */
+ol li:last-of-type{
+    font-weight: bold;
+}
 
 .emailLink:hover {
     color: red;
@@ -30,4 +30,16 @@ a:visited {
 
 a:hover {
     color: orange;
+}
+
+ol li{
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+}
+
+.change p:first-of-type {
+    background-color: rgba(0,0,0,.5)
 }
