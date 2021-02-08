@@ -128,7 +128,7 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes2
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes3
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes4
-
+`
 ### Pseudo-elements
 
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_elements1
