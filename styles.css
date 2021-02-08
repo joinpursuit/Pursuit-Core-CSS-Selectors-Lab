@@ -8,9 +8,14 @@ ul {
     list-style-type: none;
 }
 
-ol {
+ol li:last-child{
     font-weight: bold;
 }
+
+/* ol li:first-child {
+    font-weight: bold;
+} */
+
 
 li {
     text-align: center;
@@ -49,4 +54,41 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#skills-header {
+    color: rebeccapurple;
+}
+
+.links-list {
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+}
+
+body {
+    text-align: center
+}
+
+#language-list {
+    font-style: italic;
+}
+
+a[href$=".com"]:hover {
+    color: red
+}
+
+a[href$=".com"]:visited {
+    color: green
+}
+
+a[href$=".org"]:hover {
+    color: orange
+}
+
+p:nth-child(3) {
+    background-color: rgba(0,0,0,0.5)
 }
