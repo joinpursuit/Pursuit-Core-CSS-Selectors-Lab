@@ -1,16 +1,43 @@
+* {
+    text-align: center;
+}
 h1 {
     font-family: 'Luminari';
     color: blue;
     font-size: 30px;
 }
 
-ul {
-    list-style-type: none;
+.important {
+     text-decoration: underline;
+     font-weight: 700;
 }
 
-ol {
+h2#skills-header {
+     color: rgb(102,51,153)
+}
+
+a[href]:hover{
+    color: orange;
+}
+
+a[href$='.com']:visited{
+     color: green;
+}
+
+a[href$='.com']:hover{
+    color:red;
+}
+
+
+ul.links-list{
+    list-style: outside url('https://github.githubassets.com/images/icons/emoji/unicode/1f310.png');
+}
+
+
+ol>li:last-child {
     font-weight: bold;
 }
+
 
 li {
     text-align: center;
@@ -19,6 +46,10 @@ li {
     color: blue;
     background-color: lightpink;
     padding-left: 30px;
+}
+
+ul#language-list {
+    font-style: italic;
 }
 
 img {
@@ -49,4 +80,8 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+p:nth-child(3){
+    background-color: rgba(0,0,0,0.5);
 }
