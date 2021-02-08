@@ -8,7 +8,12 @@ ul {
     list-style-type: none;
 }
 
-ol {
+
+ol li:first-child {
+    font-weight: normal;
+}
+
+ol li:last-child {
     font-weight: bold;
 }
 
@@ -31,6 +36,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -49,4 +55,39 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#skills-header {
+    color: RebeccaPurple;
+}
+
+
+a[href$=".com"]:visited {
+    color: green;
+}
+
+
+a[href$=".com"]:hover {
+    color: red;
+}
+
+a:hover{
+    color: orange;
+}
+
+.links-list {
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+}
+
+#language-list {
+    font-style: italic;
+}
+
+.background-color {
+    background-color: rgba(0,0,0,.5);
 }
