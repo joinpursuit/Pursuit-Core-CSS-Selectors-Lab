@@ -4,6 +4,30 @@ h1 {
     font-size: 30px;
 }
 
+.important {
+    text-decoration-line: underline;
+    font-style: oblique;
+}
+
+#skills-header{
+    color: rebeccapurple;
+}
+
+.links-list {
+    list-style: outside url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png") disc
+}
+
+ol li:first-child{
+    font-weight: normal;
+}
+#language-list {
+    font-style: italic;
+}
+
+p:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 ul {
     list-style-type: none;
 }
@@ -31,6 +55,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
