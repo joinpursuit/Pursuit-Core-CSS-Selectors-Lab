@@ -5,11 +5,11 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc;
 }
 
 ol {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 li {
@@ -31,6 +31,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -49,4 +50,46 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+.important{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#skills-header {
+    color:rebeccapurple
+}
+
+a[href$= ".com"]:visited {
+    color: green
+
+}
+
+a[href]:hover{
+    color: orange;
+}
+
+a[href$= ".com"]:hover {
+    color: red;
+}
+
+
+ul.links-list{
+list-style-image: url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png");
+}
+
+ol li:last-child{
+    font-weight: 700;    
+}
+
+
+ul#language-list{
+    font-style: italic;
+}
+
+
+p:nth-child(3){
+    background-color:rgba(0, 0, 0, 0.5);
+
 }
