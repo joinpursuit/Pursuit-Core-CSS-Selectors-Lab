@@ -1,6 +1,6 @@
 [![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
 
-# CSS Selectors Lab
+# CSS Selectors Labı
 
 ## Getting Started
 
@@ -104,14 +104,14 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
 
 - Assign a class named `important` to all header tags and make them all underlined and bold. DONE
 - Give the h2 header with the text "Here are some of my Skills!" a unique id `skills-header` and make turn it RebeccaPurple in color. DONE
-- All links that end in .com should be the color green after the link is visited.
+- All links that end in .com should be the color green after the link is visited.DONE
 - Give the unordered list of links a class name of `links-list` and make it have a 🌐 symbol (`https://github.githubassets.com/images/icons/emoji/unicode/1f310.png`) as a bullet point. DONE
-- In all ordered lists change only the last child element to be bold.
-- Give <a> elements with an href ending ".com" a hover effect of turning red.
-- Give all other <a> elements with an href a hover effect of turning orange.
+- In all ordered lists change only the last child element to be bold. DONE
+- Give <a> elements with an href ending ".com" a hover effect of turning red. DONE
+- Give all other <a> elements with an href a hover effect of turning orange. DONE
 - Center all text inside the body. DONE
-- Give your languages unordered list an id of `language-list`, and change its font to be in italics.
-- Make the second p tag in the div have the a background-color of rgba(0,0,0,.5).
+- Give your languages unordered list an id of `language-list`, and change its font to be in italics. DONE
+- Make the second p tag in the div have the a background-color of rgba(0,0,0,.5). DONE
 
 ## Extra problems from w3school
 

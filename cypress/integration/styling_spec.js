@@ -16,7 +16,7 @@ describe("Styling", () => {
   });
 
   // https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
-  it("links ending in .com are green after visited", () => {
+  it.skip("links ending in .com are green after visited", () => {
     cy.get('a[href="https://github.com"]')
       .first()
       .click()
@@ -27,7 +27,7 @@ describe("Styling", () => {
   });
 
   // https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector
-  it("links not ending in .com are not green after visited", () => {
+  it.skip("links not ending in .com are not green after visited", () => {
     cy.get('a[href="https://pursuit.org"]')
       .first()
       .click()
@@ -54,7 +54,7 @@ describe("Styling", () => {
   });
 
   // https://github.com/cypress-io/cypress/issues/311
-  it("links ending in .com are red when hovered", () => {
+  it.skip("links ending in .com are red when hovered", () => {
     cy.get('a[href="https://github.com"]')
       .first()
       .hover()
@@ -62,7 +62,7 @@ describe("Styling", () => {
   });
 
   // https://github.com/cypress-io/cypress/issues/311
-  it("links not ending in .com are orange when hovered", () => {
+  it.skip("links not ending in .com are orange when hovered", () => {
     cy.get('a[href="https://pursuit.org"]')
       .first()
       .hover()
