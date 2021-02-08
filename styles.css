@@ -73,6 +73,15 @@ p:nth-child(3) {
     background-color:rgba(0, 0, 0, 0.5)
 }
 
+
+a[href$=".org"]:hover ​{
+    color: orange;
+}
+
 a[href$=".com"]:hover ​{
-    color:​ ​red;
+    color: red;
+}
+
+a[href$=".com"]:visited {
+    color: green;
 }
