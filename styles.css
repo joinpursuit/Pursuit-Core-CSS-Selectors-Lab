@@ -31,6 +31,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -49,4 +50,45 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+.important {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#skills-header {
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a[href$=".com"]:visited {
+    color: green;
+}
+
+a[href$=".com"]:hover {
+    color: red;
+}
+
+.links-list {
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+}
+
+ol li:first-child {
+    font-weight: normal;
+}
+
+ol li:last-child {
+    font-weight:700;
+}
+
+#language-list {
+    font-style: italic;
+}
+
+.background {
+    background-color: rgba(0,0,0,.5);
 }
