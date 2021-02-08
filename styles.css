@@ -31,6 +31,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -49,4 +50,32 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+.important{
+    text-decoration: underline;
+    font-weight:bold ;
+}
+#skills-header{
+    color:rebeccapurple;
+}
+a[href$=".com"]:visited {
+   color: green ;
+}
+a[href$=".com"]:hover{
+color:red;
+}
+a[href]:hover{
+    color:orange;
+}
+#languages-list{
+    font-style: italic;
+}
+#background{
+    background-color:rgba(0,0,0,.5) ;
+}
+ol>li:last-child{
+    font-weight: bold;
+}
+.links-list{
+    list-style-type: url("");
 }
