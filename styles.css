@@ -1,3 +1,50 @@
+
+
+.important{
+    font-weight: bold;
+    text-decoration: underline solid rgb(0,0,255);
+    /* <em> and <strong> its only for html */
+}
+
+#skills-header{
+    color: rebeccapurple;
+}
+
+a:visited{
+    color: green;
+}
+a[href$=".com"]:hover{
+    color: red;
+}
+
+a[href$=".org"]:hover{
+    color: orange;
+}
+
+
+.links-list{
+    list-style:outside url('https://github.githubassets.com/images/icons/emoji/unicode/1f310.png') disc;
+}
+
+li:last-child{
+    font-weight: 700;
+}
+ol li:first-child{
+    font-weight: 100;
+}
+
+#language-list{
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+}
+
+p:nth-child(3){
+    background:rgb(0,0,0,.5);
+  }
+
 h1 {
     font-family: 'Luminari';
     color: blue;
