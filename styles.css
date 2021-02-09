@@ -1,3 +1,26 @@
+.important{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+h2#skills-header{
+    color: rgb(102, 51, 153);
+}
+.links-list{
+    list-style: url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png");
+}
+ol li:first-child{
+    font-weight: normal;
+}
+body {
+    text-align: center;
+}
+#language-list{
+    font-style: italic;
+}
+
+p:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.5);
+}
 h1 {
     font-family: 'Luminari';
     color: blue;
