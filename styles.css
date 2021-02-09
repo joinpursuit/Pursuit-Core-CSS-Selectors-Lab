@@ -9,7 +9,7 @@ ul {
 }
 
 ol {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 li {
@@ -49,4 +49,43 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+
+.important{
+    text-decoration: underline solid blue;
+    font-weight:  700px;
+}
+
+#skills-header {
+    color: rebeccapurple;
+}
+
+a.com:visited{
+    color:green;
+}
+
+a.com:hover{
+    color:red;
+}
+
+ul.links-list{
+    list-style: outside url('https://github.githubassets.com/images/icons/emoji/unicode/1f310.png') disc;
+
+}
+
+ol li:last-child{
+    font-weight: bold;
+}
+
+
+body{
+    text-align: center;
+}
+
+ul#language-list{
+    font-style: italic;
+}
+
+p:nth-child(3){
+    background: rgba(0,0,0, .5);
 }
