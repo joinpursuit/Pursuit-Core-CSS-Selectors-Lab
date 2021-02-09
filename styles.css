@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Luminari';
     color: blue;
@@ -49,4 +53,40 @@ p {
 
 h2, h3 {
     font-size: 20px;
+}
+.important {
+    font-weight: 700;
+    text-decoration: underline solid rgb(0, 0, 255);
+}
+
+#skills-header{
+    color: rgb(102, 51, 153);
+}
+
+a[href$=".com"]:visited{
+    color: rgb(0,128,0);
+}
+
+.links-list{
+    list-style: url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png") disc;
+}
+ol li:first-child{
+    font-weight: 100;
+}
+
+ol li:last-child{
+    font-weight: 700;
+}
+a[href$=".com"]:hover{
+    color: red;
+}
+a:not([href$=".com"]):hover{
+    color: orange;
+}
+#language-list{
+    font-style: italic;
+}
+
+div p:nth-child(3){
+    background-color: rgba(0,0,0,.5);
 }
