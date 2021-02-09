@@ -50,3 +50,18 @@ p {
 h2, h3 {
     font-size: 20px;
 }
+
+.important{
+    font-weight: bold;
+    text-decoration-color: rgb(0,0,255);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+#skills-header{
+    color: rebeccapurple;
+}
+
+.links-list{
+    list-style: outside;
+}
