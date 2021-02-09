@@ -59,13 +59,16 @@ h2, h3 {
 a[href$=".com"]:visited {
    color: green ;
 }
+a[href$=".org"]:visited{
+    color:red;
+}
 a[href$=".com"]:hover{
 color:red;
 }
-a[href]:hover{
+a[href$=".org"]:hover{
     color:orange;
 }
-ul#language-list{
+#language-list{
     font-style: italic;
 }
 
