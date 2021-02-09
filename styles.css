@@ -31,6 +31,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -60,3 +61,30 @@ h2, h3 {
     color: RebeccaPurple;
 }
 
+a[href$=".com"]:visited {
+    color: green;
+}
+
+a[href$=".com"]:hover {
+    color: red;
+}
+
+a[href$=".org"]:hover {
+    color: orange;
+}
+
+.links-list {
+    list-style: disc outside url('https://github.githubassets.com/images/icons/emoji/unicode/1f310.png');
+}
+
+ol li:first-child {
+    font-weight: lighter;
+}
+
+#language-list {
+    font-style: italic;
+}
+
+p:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
