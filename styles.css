@@ -8,7 +8,11 @@ ul {
     list-style-type: none;
 }
 
-ol {
+ol li:first-child{
+    font-weight: normal;
+}
+
+ol li:last-child{
     font-weight: bold;
 }
 
@@ -19,6 +23,7 @@ li {
     color: blue;
     background-color: lightpink;
     padding-left: 30px;
+    font-weight: bold;
 }
 
 img {
@@ -31,6 +36,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -63,5 +69,25 @@ h2, h3 {
 }
 
 .links-list{
-    list-style: outside;
+    list-style: url('https://github.githubassets.com/images/icons/emoji/unicode/1f310.png');
+}
+ 
+a[href$=".com"]:visited{
+    color: green;
+}
+
+a[href$=".com"]:hover{
+    color: red;
+}
+
+a[href$=".org"]:hover{
+    color: orange;
+}
+
+#language-list{
+    font-style: italic;
+}
+
+.second.p{
+    background-color: rgba(0,0,0,.5);
 }
