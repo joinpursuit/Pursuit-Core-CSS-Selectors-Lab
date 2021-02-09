@@ -2,6 +2,11 @@ h1 {
     font-family: 'Luminari';
     color: blue;
     font-size: 30px;
+    text-decoration: underline;
+}
+
+.important{
+    text-decoration: underline;
 }
 
 ul {
@@ -9,6 +14,10 @@ ul {
 }
 
 ol {
+    font-weight: none;
+}
+
+li.fourth-child{
     font-weight: bold;
 }
 
@@ -31,6 +40,7 @@ img {
 
 body {
     font-family: sans-serif;
+    text-align:center;
 }
 
 h3 {
@@ -49,4 +59,36 @@ p {
 
 h2, h3 {
     font-size: 20px;
+    text-decoration: underline;
+}
+
+h2#skills-header{
+    color: rebeccapurple;
+}
+
+ul.links-list{
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+}
+
+ul#language-list{
+    font-style: italic;
+}
+
+div p:nth-child(3){
+    background-color: rgba(0,0,0,0.5);
+}
+
+a:visited{
+    color:green;
+}
+a[href$=".org"]:visited{
+    color:blue;
+}
+
+a:hover{
+    color: red;
+}
+
+a[href$=".org"]:hover{
+    color:orange;
 }
