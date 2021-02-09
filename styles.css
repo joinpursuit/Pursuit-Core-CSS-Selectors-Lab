@@ -8,7 +8,7 @@ ul {
     list-style-type: none;
 }
 
-ol li:first-child{
+ol li{
     font-weight: normal;
 }
 
