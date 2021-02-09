@@ -50,3 +50,13 @@ p {
 h2, h3 {
     font-size: 20px;
 }
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ #skills-header {
+    color: RebeccaPurple;
+}
+
