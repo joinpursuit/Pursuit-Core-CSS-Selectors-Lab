@@ -51,7 +51,12 @@ ol li:last-child {
     font-weight: bold;
 }
 
-li.links-list {
+/* make this NOT bold ???*/
+/* ol li:first-child {
+    font-weight: 200px;
+} */
+
+ul#language-list.links-list {
   list-style: url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png");
 }
 
