@@ -71,11 +71,24 @@ a.one:hover {
 a.two:visited {
     color: green;
 }
+a.two:hover {
+    color: red;
+}
 
 a.three:visited {
     color: green;
 }
+a.three:hover {
+    color: red;
+}
 
+a.four:hover {
+    color: orange;
+}
+
+a.five:hover {
+    color: orange;
+}
 .links-list {
     list-style: outside url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png") disc;
 }
@@ -87,7 +100,6 @@ ol li:last-child {
 ul#language-list {
     font-style: italic;
 }
-
 p:nth-child(3) {
-    background-color: rgba(0,0,0, 0.05);
+    background: rgba(0, 0, 0, 0.5);
 }
