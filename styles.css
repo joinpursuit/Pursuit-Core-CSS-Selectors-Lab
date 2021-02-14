@@ -50,3 +50,44 @@ p {
 h2, h3 {
     font-size: 20px;
 }
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#language-list {
+    font-style: italic;
+}
+
+#skills-header {
+    color:rebeccapurple;
+}
+
+li:nth-child(1) {
+    font-weight: normal;
+}
+
+li:last-child {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+}
+
+h2 + p + p {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.links-list {
+    list-style:outside;
+    list-style-image:url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png) ;
+}
+
+a[href$=".com"]:hover {
+    color:red;
+}
+
+a:hover {
+    color: orange;
+}
