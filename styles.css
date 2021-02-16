@@ -46,6 +46,7 @@ html {
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rbga(0,0,0,0.5);
 }
 
 h2, h3 {
@@ -66,29 +67,47 @@ a[href$='.com']::after{
     color: green;
 }
 
-.links-list:before{
-    width: 10px;
-    height: 10px;
-    margin-left: -20;
-    margin-right: 10px;
-    content: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+.links-list {
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
 }
 
-/* li+li{
-    font-weight: bold;
-} */
 
 *{
     text-align: center;
 }
 
-a[href$='.com']:hover{
-    color:red;
+a[href$=".com"]:visited{
+    color: green;
 }
-a[href]:hover{
+a[href$=".com"]:hover{
+    color: red;
+}
+
+
+ol li:last-child {
+    font-weight: bold;
+}
+a[href$=".org"]:hover{
     color: orange;
 }
 
-#language-list{
-    font-style: italic;
+ul#language-list{
+    font-style: "italic";
 }
+
+.class {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+p:nth-child(3) {
+    background-color: rbga(0,0,0,.5);
+}
+
+li#language-list{
+    font-weight: 400;
+}
+
+
+
