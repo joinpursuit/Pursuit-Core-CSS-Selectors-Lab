@@ -10,6 +10,7 @@ ul {
 
 ol {
     font-weight: bold;
+
 }
 
 li {
@@ -45,8 +46,68 @@ html {
 p {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rbga(0,0,0,0.5);
 }
 
 h2, h3 {
     font-size: 20px;
 }
+
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#skills-header {
+    color: rebeccapurple;
+}
+
+a[href$='.com']::after{
+    color: green;
+}
+
+.links-list {
+    list-style: url(https://github.githubassets.com/images/icons/emoji/unicode/1f310.png);
+}
+
+
+*{
+    text-align: center;
+}
+
+a[href$=".com"]:visited{
+    color: green;
+}
+a[href$=".com"]:hover{
+    color: red;
+}
+
+
+ol li:last-child {
+    font-weight: bold;
+}
+a[href$=".org"]:hover{
+    color: orange;
+}
+
+ul#language-list{
+    font-style: "italic";
+}
+
+.class {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+p:nth-child(3) {
+    background-color: rbga(0,0,0,.5);
+}
+
+li#language-list{
+    font-weight: 400;
+}
+
+
+
